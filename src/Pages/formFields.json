@@ -1,0 +1,145 @@
+[
+  {
+    "applicant_data": [
+      {
+        "label": "First Name",
+        "name": "first_name",
+        "type": "text"
+      },
+      {
+        "label": "Middle Name",
+        "name": "middle_name",
+        "type": "text"
+      },
+      {
+        "label": "Last Name",
+        "name": "last_name",
+        "type": "text"
+      },
+      {
+        "label": "DOB",
+        "name": "dob",
+        "type": "date"
+      },
+      {
+        "label": "ID Type",
+        "name": "id_type",
+        "type": "text"
+      },
+      {
+        "label": "ID Number",
+        "name": "id_no",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "additional_info": [
+      {
+        "label": "Gender",
+        "name": "gender",
+        "option": ["Male", "Female", "Other"]
+      },
+      {
+        "label": "Marital Status",
+        "name": "maritial_status",
+        "option": ["Married", "Single", "Divorced", "Widowed", "Widower"]
+      },
+      {
+        "label": "Caste",
+        "name": "caste",
+        "option": [
+          "Brahmin",
+          "Chhetri",
+          "Newar",
+          "Gurung",
+          "Magar",
+          "Tamang",
+          "Thakuri",
+          "Rai",
+          "Limbu",
+          "Sherpa",
+          "Sunuwar",
+          "Yadav",
+          "Damai",
+          "Kami",
+          "Sarki",
+          "Tharu",
+          "Bahun",
+          "Jirel",
+          "Chepang",
+          "Other"
+        ]
+      },
+      {
+        "label": "Religion",
+        "name": "religion",
+        "option": [
+          "Hinduism",
+          "Buddhism",
+          "Islam",
+          "Kiratism",
+          "Christianity",
+          "Other"
+        ]
+      },
+      {
+        "label": "Profession",
+        "name": "profession",
+        "option": [
+          "Agriculture",
+          "Tourism and Hospitality",
+          "Healthcare",
+          "Engineering and Technical Skills",
+          "Information Technology",
+          "Education and Teaching",
+          "Arts and Entertainment",
+          "Construction",
+          "Transportation and Logistics",
+          "Finance and Accounting",
+          "Government Services",
+          "Other"
+        ]
+      }
+    ]
+  },
+  {
+    "contat_details": [
+      {
+        "label": "Phone Number",
+        "name": "phone_number",
+        "type": "text"
+      },
+      {
+        "label": "State",
+        "name": "state",
+        "type": "text"
+      },
+      {
+        "label": "District",
+        "name": "district",
+        "type": "text"
+      },
+      {
+        "label": "Municipality/VDC",
+        "name": "local_level",
+        "type": "text"
+      },
+      {
+        "label": "Ward Number",
+        "name": "ward_no",
+        "type": "text"
+      },
+      {
+        "label": "Village/Tole",
+        "name": "village_tole",
+        "type": "text"
+      },
+      {
+        "label": "House Number",
+        "name": "house_no",
+        "type": "text"
+      }
+    ]
+  }
+]

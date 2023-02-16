@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ApplicantsData from "../Pages/ApplicantsData";
 import ContactDetails from "../Pages/ContactDetails";
-import useMultistepForm from "./useMultistepform";
+import useMultistepForm from "./MultistepformHooks";
 
 export default function Multistepform() {
   const [formData, setFormData] = useState({

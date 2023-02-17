@@ -16,6 +16,7 @@ export default function ApplicantsData({ formData, handleChange }) {
             name={field.name}
             value={formData[field.name]}
             onChange={handleChange(field.name)}
+            required={field.required ? true : false}
           />
         ))}
       </fieldset>
@@ -31,6 +32,7 @@ export default function ApplicantsData({ formData, handleChange }) {
             value={formData[field.name]}
             onChange={handleChange(field.name)}
             option={field.option}
+            required={field.required ? true : false}
           />
         ))}
       </fieldset>
